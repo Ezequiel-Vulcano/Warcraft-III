@@ -21,8 +21,8 @@ header {
 
 main {
     margin: auto;
-    position: relative; /*! Agregue esto */
-    z-index: 9999; /*! Agregue esto */
+   /*!position: relative;  Agregue esto */
+   /*! z-index: 9999;  Agregue esto */
 }
 
 section > div {
@@ -135,8 +135,8 @@ header nav i {
 
 video {
     min-width: 100%;
-    position: absolute; /*! Agregue esto */
-    z-index: -1; /*! Agregue esto */
+    /*! position: absolute; Agregue esto */
+    /*! z-index: -1;  Agregue esto */
     display: block; /* Añade esta línea para eliminar el espacio residual */
     margin-bottom: 0; /* Asegura que no haya margen inferior */
     padding: 0; /* Asegura que no haya relleno */
@@ -527,7 +527,7 @@ footer div:last-of-type > div > span{
     }
 
     header {
-        height: 85vh; /*! Agregue esto */
+        /*!height: 85vh;  Agregue esto */
         position: relative;
         z-index: 9999; /*! Agregue esto */
     }
